@@ -1,0 +1,17 @@
+scikeras
+feature-engine
+hyperopt
+hpsklearn
+tune_sklearn
+mlens
+shap
+pandas
+numpy
+tensorflow
+keras
+scikit-learn
+scipy
+matplotlib
+seaborn
+xgboost
+plotly
