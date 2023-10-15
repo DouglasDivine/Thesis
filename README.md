@@ -4,7 +4,7 @@ Pyrolysis is a thermochemical conversion process used for the production of biof
 
 ## Project Overview
 
-This project employs a data-driven machine learning (ML) approach to study the complex relationships between biomass composition, reaction conditions, and product yield in the context of pyrolysis. Additionally, we aim to make the findings interpretable, as many ML models are often regarded as black boxes.
+This project employs a data-driven machine learning (ML) and interpretability approach to study the complex relationships between biomass composition, reaction conditions, and product yield in the context of pyrolysis. Additionally, we aim to make the findings interpretable, as many ML models are often regarded as black boxes.
 
 ## Key Findings
 
@@ -14,36 +14,18 @@ This project employs a data-driven machine learning (ML) approach to study the c
 - The Gradient Boosting Regressor (GBR) model outperformed all other models due to its ability to handle various types of data and capture non-linear connections and interactions between variables.
 - A notable conclusion from the permutation feature importance analysis is that the oxygen (O) content had the most impact on various parameters, including H/C ratio, O/C ratio, gas yield, oil yield, and biochar yield. This was closely followed by the pyrolysis temperature (PT).
 
-## Repository Structure
-
-- `data/`: Contains the dataset used for analysis.
-- `notebooks/`: Jupyter notebooks used for data preprocessing, model training, and results interpretation.
-- `scripts/`: Any relevant scripts used in the project.
-- `results/`: Resulting plots, figures, and data outputs.
-
-## Dependencies
-
-- Python 3.x
-- Jupyter Notebook
-- Libraries (NumPy, Pandas, Scikit-learn, XGBoost, etc.)
-
 ## Getting Started
-
 1. Clone this repository to your local machine.
 2. Install the necessary dependencies using `pip install -r requirements.txt`.
-3. Explore the Jupyter notebooks in the `notebooks/` directory for detailed analysis and findings.
+3. Explore the Jupyter notebooks in the main.ipynb for detailed analysis and findings.
 
-## Contributors
-
-- [Your Name]
-- [Additional Contributors]
-
-## License
-
-This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
+## Note
+- The data.xlsx in the datasets folder contains the raw data from the online source mentioned in the acknowledgment section.
+- The dataset.xlsx in the datasets folder contains the transformed and preprocessed data used in this thesis.
+- Finally, the clean_data.xlsx contains the cleaned data used in this research
 
 ## Acknowledgments
+- Dr.Jude Okolie (University of Oklahoma, Gallogly College of Engineering) and M.sc Stell(Hochschule Bremerhaven) for their support and supervision
+- Raw datasets for this research can be found online at https://doi.org/10.1016/j.fuel.2021.122812
+- link to the trained model and deployed app on hugging face space: https://huggingface.co/spaces/DTonye/Waste-Biomass-Pyrolysis-Predictor
 
-- Mention any sources of data, libraries, or tools that were helpful in this project.
-
-Feel free to update and customize this README according to your project's specific needs.
