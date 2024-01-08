@@ -26,6 +26,8 @@ This project employs a data-driven machine learning (ML) and interpretability ap
 
 ## Acknowledgments
 - Dr.Jude Okolie (University of Oklahoma, Gallogly College of Engineering) and M.sc Stell(Hochschule Bremerhaven) for their support and supervision
-- Raw datasets for this research can be found online at https://doi.org/10.1016/j.fuel.2021.122812
+- The data used in this research is a combination of process simulation and literature as shown in the diagram below:
+- ![IMG-20231121-WA0001](https://github.com/DouglasDivine/Thesis/assets/48439707/6abefdf6-04ef-429c-a087-dae784e9cc91)
+
 - link to the trained model and deployed app on hugging face space: https://huggingface.co/spaces/DTonye/Waste-Biomass-Pyrolysis-Predictor
 
